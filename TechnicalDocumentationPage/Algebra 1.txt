@@ -1,0 +1,16 @@
+1.Introudction
+2.What you should know
+3.Algebra Foundations
+4.Solving Equation & Inequalities
+5.Working With Units
+6.Linear Equations & Graphs
+7.Forms of Linear Equations
+8.System of Equations
+9.Inequalities (System & Graphs)
+10.Functions
+11.Sequences
+12.Absolute Value & Piecewise Functions
+13.Exponents & Radicals
+14.Exponential Growth & Decay
+15.Quadratics Multiplying & Factoring
+16.Quadratic Functions & Equations

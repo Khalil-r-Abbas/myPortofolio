@@ -1,0 +1,111 @@
+/*this is for the body*/
+body {
+    /*this is for website background*/
+    background-image: url('Gambar/cupcakehd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+
+    
+    
+}
+
+/*Font of website*/
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+p {
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+}
+.sejak {
+    font-style: italic;
+}
+
+
+/*This is for the line*/
+hr {
+    height: 3px;
+    background-color: rgb(211, 211, 211);
+    border-color:  rgb(255, 105, 180);
+}
+.bottomLine {
+    margin-top: 25px;
+}
+
+
+/*this is for the menu*/
+.menu {
+    width: 80%;
+    max-width: 500px;
+    background-color: rgb(255, 182, 193);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.cupcakeIcon , .drinkIcon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+.cupcakeIcon {
+    width: 50px;
+    height: 50px;
+}
+.drinkIcon {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+/*this is for the place of the menu*/
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.Cupcake ,.Drink {
+    text-align: left;
+    width: 75%;
+    
+}
+.CupcakePrice ,.DrinkPrice {
+    text-align: right;
+    width: 25%;
+}
+
+/*FOOTER*/
+footer {
+    font-size: 14px;
+}
+a {
+    color: rgb(255, 105, 180); 
+    text-decoration: none; 
+  }
+  
+  a:hover {
+    color: rgb(128, 0, 128); 
+  }
+  
+  a:visited {
+    color: rgb(138, 43, 226); 
+  }
+
+
+

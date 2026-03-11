@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+#navbar {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    position: fixed;
+    width: 18vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    font-size: 1.4em;
+    overflow-y: auto;
+    background-color: #121212; /* Darker than main background */
+    border-right: 2px solid rgb(13, 216, 13); /* Matching section header green */
+    padding: 1em;
+    box-shadow: 3px 0 10px rgba(13, 216, 13, 0.1); /* Subtle green glow */
+}
+
+#navbar header {
+    font-size: 1.5em;
+    color: rgb(13, 216, 13); /* Now matching section headers */
+    text-align: center;
+    border-bottom: 2px solid rgba(13, 216, 13, 0.5); /* Semi-transparent green */
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    text-shadow: 0 0 5px rgba(13, 216, 13, 0.3);
+}
+
+#navbar a {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid rgba(13, 216, 13, 0.3); /* Lighter green border */
+    color: #cccccc; /* Softer white than body text */
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+}
+
+#navbar a:hover {
+    background-color: rgba(13, 216, 13, 0.1); /* Green tint on hover */
+    color: white;
+    border-bottom: 1px solid rgb(13, 216, 13);
+    box-shadow: 0 0 8px rgba(13, 216, 13, 0.2);
+}
+#navbar a::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: rgb(13, 216, 13);
+    transition: width 0.7s ease;
+}
+
+#navbar a:hover::after {
+    width: 100%;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 20vw;
+    padding: 2em;
+    font-size: 1.1em;
+}
+#main-doc h1 {
+    font-size: 2.8em;
+    color: rgb(111, 240, 111);
+}
+
+.main-section  header {
+    color: rgb(13, 216, 13);
+    margin-top: 50px;
+    font-size: 1.4em;
+}
+
+
+/*for mobile user*/
+
+@media (max-width: 900px) {
+    #navbar {
+        width: 24vw;
+        font-size: 0.7em;
+        padding: 0.5em;
+        gap: 7.5px;
+    }
+    #navbar header {
+        font-size: 1.6em;
+        padding-bottom: 7.5px;
+        margin-bottom: 7.5px;
+    }
+    #navbar a {
+        padding: 7.5px;
+    }
+    #main-doc {
+        margin-left: 24vw;
+        padding: 1em;
+        font-size: 0.55em;
+    }
+    #main-doc h1{
+        font-size: 2em;
+    } 
+
+    #main-section header {
+        margin-top: 25px;
+        font-size: 0.7em;
+    }  
+}

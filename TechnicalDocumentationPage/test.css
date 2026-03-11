@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: red;
+}
+
+.container-grid > div {
+    font-size: large;
+    border: 1px solid black;
+}
